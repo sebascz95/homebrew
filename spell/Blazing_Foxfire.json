@@ -15,8 +15,8 @@
 				]
 			}
 		],
-		"dateAdded": 1619643367,
-		"dateLastModified": 1619643367
+		"dateAdded": 1619646895,
+		"dateLastModified": 1619646895
 	},
 	"spell": [
 		{
@@ -39,8 +39,8 @@
 				{
 					"type": "timed",
 					"duration": {
-						"type": "minute",
-						"amount": 10
+						"type": "hour",
+						"amount": 1
 					}
 				}
 			],
@@ -53,13 +53,15 @@
 				]
 			},
 			"entries": [
-				"A flickering, arcane flame appears in your hand. The flame is non-damaging, blue and of a fey nature. The maximum size of the flame is a 6 ft square cube, increase it by 1 sq ft per sorcerer level. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. You can double or halve the area of bright light and dim light cast by the flame.",
+				"A flickering, arcane flame appears in your hand or from your tail. The flame is non-damaging, blue and of a fey nature. The maximum size of the flame is a 6 ft square cube, increase it by 1 sq ft per sorcerer level. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. You can double or halve the area of bright light and dim light cast by the flame.",
+				"You can replace any open, non-magical flame (limited by the maximum volume of your flame) with your foxfire. If you remove your foxfire the real flame can be extinguished or stay alight by your choice.",
 				"When this spell is cast you can move your foxfire to anywhere within this spells damaging range. You can use your bonus action on subsequent turns to move and animate this flame.",
-				"You can animate the flame in the following way. You cause shapes—such as the form of a creature, an inanimate object, or a location—to appear within the flames and animate as you like. The color can change to any shade of blue. You can also use the sound of burning fire to roar, create fiery noises, and simple verbal communication.",
-				"You can attack with the flame. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 120 feet of you. If you have shaped the flame the attack will simulate the form physically attacking your target. Make a ranged spell attack. On a hit, the target takes {@damage 1d8} psychic damage.",
-				"You can now replace any non-magical flame within range, limited by your maximum volume of the cantrip, with your foxfire. When you release the flame you can choose to extinguish or leave it burning.",
-				"When your foxfire appears or when you move it on your turn any creature or item of your choice within 5 ft of it must make a Dexterity saving throw. The creature or item takes {@damage 3d6} fire damage on a failed save, or half as much damage on a successful one. Any creature that ends its turn within 5 ft of your foxfire must also make the saving throw against this trait's damage. If you make a spell attack roll with your foxfire you may choose to do psychic or fire damage with it. It is a true illusion.",
-				"If you cast this spell again this will cancel any active foxfire spell in play."
+				"You can animate the flame in the following way. You cause shapes—such as the form of a creature, an inanimate object, or a location—to appear within the flames and animate as you like. The color can change to any shade of blue. You can also use the sound of burning fire to roar, create fiery noises, and even communicate verbally.",
+				"You can also attack with the flame. This does not end the spell. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 60 feet (120 ft at 6th lvl, 300 ft at 12th lvl, 1000 ft at 18th lvl) of you. If you have shaped the flame the attack will simulate the form physically attacking your target. Make a ranged spell attack. On a hit, the target takes {@damage 1d10} fire damage. ",
+				"This spell's damage increases by {@dice 1d10} when you reach 5th level ({@dice 2d10}), 11th level ({@dice 3d10}), and 17th level ({@dice 4d10}). At 2nd level, you can split the flame into two separate magical fires and move them independently. The volume of flame remains the same. You gain one more flame at 6th, 12th and 18th level. This does not let you attack multiple times but you can now attack multiple targets and split the damage rounded down.",
+				"At 18th level, your foxfire is now permanently ablaze and under the careful spell metamagic enhancement. Any creature or object you choose within 5 feet of your foxfire must make a Dexterity saving throw or is set aflame and takes {@damage 1d10} fire damage at the beginning of its turn. They cannot put themselves out with an action if they remain within or near your foxfire.",
+				"A flammable object hit by this spell ignites if it isn't being worn or carried.",
+				"If you cast this spell again this will cancel any active foxfire spell in play"
 			],
 			"source": "FeyNine-Tails",
 			"races": [
@@ -83,20 +85,20 @@
 				"v": true,
 				"s": true
 			},
-			"entriesHigherLevel": [
-				{
-					"name": "At Higher Levels",
-					"entries": [
-						"This spell's damage increases by {@dice 1d8} when you reach 4th level ({@dice 2d8}), 10th level ({@dice 3d8}), 14th level ({@dice 4d8}) and 20th level ({@dice 5d8}). You can chose to hit multiple targets depending on the amount of {@dice d8} you use to attack, if you do, divide the damage with the number of targets."
-					]
-				}
-			],
 			"fluff": {
 				"entries": [
 					"The fey flames of the fox burns within, use them wisely.",
 					"You can attack with the flame. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 120 feet of you. If you have shaped the flame the attack will simulate the form physically attacking your target. Make a ranged spell attack. On a hit, the target takes 1d8 psychic damage. If you cast this spell again this will cancel any active foxfire spell in play."
 				]
-			}
+			},
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you attack with this spell you may use a 1st level spell slot or higher to increase the damage, the damage increases by {@dice 1d10} for each slot level used."
+					]
+				}
+			]
 		}
 	]
 }
