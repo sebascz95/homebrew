@@ -15,8 +15,8 @@
 				]
 			}
 		],
-		"dateAdded": 1619635506,
-		"dateLastModified": 1619635506
+		"dateAdded": 1619644744,
+		"dateLastModified": 1619644744
 	},
 	"monster": [
 		{
@@ -155,6 +155,9 @@
 			"spellcasting": [
 				{
 					"name": "Innate  Spellcasting",
+					"headerEntries": [
+						"The nine-tail's innate spellcasting ability is Charisma (spell save {@dc 23}, +15 to hit with spell attacks). The nine-tails can innately cast the following spells, requiring no material components:"
+					],
 					"will": [
 						"{@spell blazing foxfire|FeyNine-Tails}",
 						"{@spell blur}",
@@ -203,6 +206,7 @@
 							"{@spell weird}"
 						]
 					},
+					"ability": "cha",
 					"type": "spellcasting"
 				}
 			],
@@ -269,6 +273,12 @@
 					"entries": [
 						"Nine-tails can cast some spells completely with their tails instead of using verbal chanting.",
 						"All illusion spells you cast are automatically under the subtle spell metamagic enhancement. "
+					]
+				},
+				{
+					"name": "Blurred",
+					"entries": [
+						"The essence of illusion clings to the nine-tails skin. The nine-tails is constantly under the effect of the spell blur."
 					]
 				}
 			],
