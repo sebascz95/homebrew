@@ -15,8 +15,8 @@
 				]
 			}
 		],
-		"dateAdded": 1619642893,
-		"dateLastModified": 1619642893
+		"dateAdded": 1619644730,
+		"dateLastModified": 1619644730
 	},
 	"monster": [
 		{
@@ -118,6 +118,9 @@
 			"spellcasting": [
 				{
 					"name": "Innate  Spellcasting",
+					"headerEntries": [
+						"The nine-tail's innate spellcasting ability is Charisma (spell save {@dc 23}, +15 to hit with spell attacks). The nine-tails can innately cast the following spells, requiring no material components:"
+					],
 					"will": [
 						"{@spell blur}",
 						"{@spell disguise self}",
@@ -146,7 +149,7 @@
 							"{@spell weird}"
 						]
 					},
-					"type": "spellcasting"
+					"ability": "cha"
 				}
 			],
 			"spellcastingTags": [
