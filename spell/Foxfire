@@ -1,0 +1,99 @@
+{
+	"siteVersion": "1.127.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "FeyNine-Tails",
+				"abbreviation": "AWW",
+				"full": "Arashi Wild World",
+				"url": "",
+				"authors": [
+					"Arashi Keaton"
+				],
+				"convertedBy": [
+					"scz"
+				]
+			}
+		],
+		"dateAdded": 1619643370,
+		"dateLastModified": 1619643370
+	},
+	"spell": [
+		{
+			"name": "Foxfire",
+			"level": 0,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer (Kitsune Bloodline)",
+						"source": "FeyNine-Tails"
+					}
+				]
+			},
+			"entries": [
+				"A flickering, arcane flame appears in your hand. The flame is non-damaging, blue and of a fey nature. The maximum size of the flame is a 6 ft square cube, increase it by 1 sq ft per sorcerer level. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. You can double or halve the area of bright light and dim light cast by the flame.",
+				"When this spell is cast you can move your foxfire to anywhere within this spells damaging range. You can use your bonus action on subsequent turns to move and animate this flame.",
+				"You can animate the flame in the following way. You cause shapes—such as the form of a creature, an inanimate object, or a location—to appear within the flames and animate as you like. The color can change to any shade of blue. You can also use the sound of burning fire to roar, create fiery noises, and simple verbal communication.",
+				"You can attack with the flame. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 120 feet of you. If you have shaped the flame the attack will simulate the form physically attacking your target. Make a ranged spell attack. On a hit, the target takes {@damage 1d8} psychic damage. If you cast this spell again this will cancel any active foxfire spell in play."
+			],
+			"source": "FeyNine-Tails",
+			"races": [
+				{
+					"name": "Kitsune",
+					"source": "PHB",
+					"baseName": "Kitsune",
+					"baseSource": "FeyNine-Tails"
+				}
+			],
+			"spellAttack": [
+				"R"
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"This spell's damage increases by {@dice 1d8} when you reach 4th level ({@dice 2d8}), 10th level ({@dice 3d8}), 14th level ({@dice 4d8}) and 20th level ({@dice 5d8})."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The fey flames of the fox burns within, use them wisely.",
+					"You can attack with the flame. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 120 feet of you. If you have shaped the flame the attack will simulate the form physically attacking your target. Make a ranged spell attack. On a hit, the target takes 1d8 psychic damage. If you cast this spell again this will cancel any active foxfire spell in play."
+				]
+			}
+		}
+	]
+}
