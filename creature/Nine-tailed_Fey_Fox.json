@@ -1,0 +1,295 @@
+{
+	"siteVersion": "1.127.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "FeyNine-Tails",
+				"abbreviation": "AWW",
+				"full": "Arashi Wild World",
+				"url": "",
+				"authors": [
+					"Arashi Keaton"
+				],
+				"convertedBy": [
+					"scz"
+				]
+			}
+		],
+		"dateAdded": 1619644590,
+		"dateLastModified": 1619644590
+	},
+	"monster": [
+		{
+			"name": "Nine-tailed Fey Fox",
+			"isNamedCreature": true,
+			"source": "FeyNine-Tails",
+			"page": 0,
+			"size": "H",
+			"type": "fey",
+			"alignment": [
+				"C"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "24d12 + 168",
+				"average": 324
+			},
+			"speed": {
+				"walk": 50,
+				"fly": {
+					"number": 70,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 24,
+			"dex": 18,
+			"con": 24,
+			"int": 14,
+			"wis": 24,
+			"cha": 30,
+			"save": {
+				"dex": "+12",
+				"wis": "+16",
+				"cha": "+18"
+			},
+			"skill": {
+				"deception": "+18",
+				"insight": "+23",
+				"perception": "+15",
+				"persuasion": "+18",
+				"stealth": "+12"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 25,
+			"resist": [
+				"cold"
+			],
+			"immune": [
+				{
+					"immune": [
+						"fire"
+					]
+				},
+				{
+					"immune": [
+						"psychic"
+					]
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Common",
+				"Sylvan",
+				"Elvish"
+			],
+			"cr": "25",
+			"senseTags": [
+				"U"
+			],
+			"languageTags": [
+				"C",
+				"S",
+				"E"
+			],
+			"damageTags": [
+				"P",
+				"B"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"charmed",
+				"restrained"
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The nine-tail's innate spellcasting ability is Charisma (spell save {@dc 23}, +15 to hit with spell attacks). The nine-tails can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell blazing foxfire|FeyNine-Tails}",
+						"{@spell blur}",
+						"{@spell disguise self}",
+						"{@spell fire bolt}",
+						"{@spell foxfire|FeyNine-Tails}",
+						"{@spell invisibility}",
+						"{@spell minor illusion}",
+						"{@spell mirror image}",
+						"{@spell phantasmal force}",
+						"{@spell silent image}"
+					],
+					"daily": {
+						"5e": [
+							"{@spell greater invisibility}",
+							"{@spell hallucinatory terrain}",
+							"{@spell hypnotic pattern}",
+							"{@spell major image}",
+							"{@spell phantasmal killer}"
+						],
+						"3e": [
+							"{@spell creation}",
+							"{@spell mirage arcane}",
+							"{@spell mislead}"
+						],
+						"1e": [
+							"{@spell plane shift}",
+							"{@spell weird}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"action": [
+				{
+					"name": "Pounce",
+					"entries": [
+						"If the Fox moves at least 15 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a {@dc 24} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the Fox can make one extra bite attack against it as a bonus action."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"Melee Weapon Attack {@hit 17} to hit, reach 10ft., one target. {@h}21 ({@damage 2d10 + 10}) piercing damage. If the target is a creature, it must succeed on a {@dc 24} Strength saving throw or be {@condition grappled}. The nine-tails now has it in its jaws. It is the nine-tails choice to grapple the creature or not."
+					]
+				},
+				{
+					"name": "Tail Swipe",
+					"entries": [
+						"Melee Weapon Attack {@hit 17} to hit, reach 15ft., one target. {@h}19 ({@damage 2d8 + 10}) bludgeoning damage. The target of size large or smaller must succeed on a {@dc 24} Strength saving throw or be knocked back 20 ft and become {@condition prone}."
+					]
+				},
+				{
+					"name": "Shake Prey",
+					"entries": [
+						"If the nine-tails has a creature {@condition grappled} of a size of large or smaller it can use a bonus action to take the creature in its jaws and vigorously shake it from side to side. The creature makes a {@dc 25} strength saving throw and takes ({@dice 2d12 + 10}) piercing and ({@dice 2d12 + 10}) bludgeoning damage on a failed save, or half as much on a successful one."
+					]
+				}
+			],
+			"conditionInflict": [
+				"prone",
+				"grappled"
+			],
+			"trait": [
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"The nine-tails has advantage on Wisdom (perception) checks."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the nine-tails fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Superior Truesight",
+					"entries": [
+						"They have Truesight out to a distance of 120ft. They can see through all illusions, even ones protected from Truesight, and can choose to dispel them instantly without a DC check as a bonus action."
+					]
+				},
+				{
+					"name": "Immortal Fey",
+					"entries": [
+						"The nine-tails is immortal. They cannot be aged. They heal double the hit dice on a short rest and a long rest only takes 4 hours. Over multiple long rests scars will fade, evidence of old wounds disappears and they can even replace lost body parts."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The nine-tails is an immortal, fey creature. They have advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "True Illusion",
+					"entries": [
+						"The Nine-Tails illusions are so potent they gain a physical and self sustaining form. Visual illusions cast through their Innate Spellcasting feature do not require the Nine-tails concentration. They can choose for the illusion to be immaterial or have physical substance. The True Illusion has one half the hit points, their to-hit is the Nine-tails spell attack and do one half the damage if applicable. Any spell or effect the illusion makes uses the foxfire cantrip."
+					]
+				},
+				{
+					"name": "Foxfire Savant",
+					"entries": [
+						"The foxfire a nine-tails can cast is legendary. Cast it as a 20th level sorcerer and double the range and flame volume of the cantrip. The Nine Tails can choose to cast it with either the Empowered or Quickened metamagic at will."
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"The nine-tails changes shape into its humanoid form. If the humanoid form is at zero hit points they cannot use this ability. The nine-tails must complete a long rest to bring it back to full hit points in both forms."
+					]
+				},
+				{
+					"name": "Illusive Collapse",
+					"entries": [
+						"If the nine-tails fox form is brought to zero hit points and its humanoid form is above zero hit points the nine-tails will immediately change shape by fading away in a waft of illusion. The nine-tails humanoid form"
+					]
+				},
+				{
+					"name": "Pounce",
+					"entries": [
+						"e. If the Fox moves at least 20 feet straight",
+						"toward a creature and then hits it with a bite attack on",
+						"the same turn, that target must succeed on a {@dc 24}",
+						"Strength saving throw or be knocked {@condition prone}. If the",
+						"target is {@condition prone}, the Fox can make one extra bite attack",
+						"against it as a bonus action."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses",
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Pounce"
+			],
+			"legendaryHeader": [
+				"The nine-tails can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The nine-tails regains spent legendary actions at the start of its turn."
+			],
+			"legendary": [
+				{
+					"name": "Innate Spellcasting",
+					"entries": [
+						"The nine-tails can cast their At Will spells with 1 action, their 5/day with 2 actions, or their 3/day with 3 actions."
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"The nine-tails uses its Change Shape ability."
+					]
+				},
+				{
+					"name": "Tail Swipe",
+					"entries": [
+						"The nine-tails makes a tail attack"
+					]
+				},
+				{
+					"name": "Shake Prey",
+					"entries": [
+						"The nine-tails shakes its prey."
+					]
+				}
+			]
+		}
+	]
+}
