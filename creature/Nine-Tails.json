@@ -1,0 +1,246 @@
+{
+	"siteVersion": "1.127.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "FeyNine-Tails",
+				"abbreviation": "AWW",
+				"full": "Arashi Wild World",
+				"url": "",
+				"authors": [
+					"Arashi Keaton"
+				],
+				"convertedBy": [
+					"scz"
+				]
+			}
+		],
+		"dateAdded": 1619642893,
+		"dateLastModified": 1619642893
+	},
+	"monster": [
+		{
+			"name": "Nine-Tails",
+			"size": "M",
+			"type": "fey",
+			"source": "FeyNine-Tails",
+			"alignment": [
+				"C"
+			],
+			"ac": [
+				18
+			],
+			"hp": {
+				"formula": "20d8 + 60",
+				"average": 150
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 14,
+			"dex": 24,
+			"con": 16,
+			"int": 14,
+			"wis": 24,
+			"cha": 24,
+			"passive": 25,
+			"cr": "25",
+			"shortName": true,
+			"level": 18,
+			"senses": [
+				"truesight 120 ft."
+			],
+			"senseTags": [
+				"U"
+			],
+			"languages": [
+				"Common",
+				"Sylvan",
+				"Elvish"
+			],
+			"languageTags": [
+				"C",
+				"S",
+				"E"
+			],
+			"save": {
+				"dex": "+15",
+				"wis": "+15",
+				"cha": "+15"
+			},
+			"skill": {
+				"insight": "+23",
+				"perception": "+15",
+				"persuasion": "+15",
+				"deception": "+15"
+			},
+			"conditionImmune": [
+				{
+					"conditionImmune": [
+						"charmed"
+					]
+				},
+				{
+					"conditionImmune": [
+						"frightened"
+					]
+				},
+				{
+					"conditionImmune": [],
+					"preNote": "Disease"
+				},
+				{
+					"conditionImmune": [
+						"unconscious"
+					]
+				}
+			],
+			"immune": [
+				{
+					"immune": []
+				},
+				{
+					"immune": [
+						"fire"
+					]
+				},
+				{
+					"immune": [
+						"psychic"
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Innate  Spellcasting",
+					"will": [
+						"{@spell blur}",
+						"{@spell disguise self}",
+						"{@spell foxfire|FeyNine-Tails}",
+						"{@spell invisibility}",
+						"{@spell minor illusion}",
+						"{@spell mirror image}",
+						"{@spell phantasmal force}",
+						"{@spell silent image}"
+					],
+					"daily": {
+						"5e": [
+							"{@spell greater invisibility}",
+							"{@spell hallucinatory terrain}",
+							"{@spell hypnotic pattern}",
+							"{@spell major image}",
+							"{@spell phantasmal killer}"
+						],
+						"3e": [
+							"{@spell creation}",
+							"{@spell mirage arcane}",
+							"{@spell mislead}"
+						],
+						"1e": [
+							"{@spell plane shift}",
+							"{@spell weird}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"trait": [
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"The nine-tails has advantage on Wisdom (perception) checks."
+					]
+				},
+				{
+					"name": "Superior Truesight",
+					"entries": [
+						"They have Truesight out to a distance of 120ft. They can see through all illusions, even ones protected from Truesight, and can choose to dispel them instantly without a DC check as a bonus action."
+					]
+				},
+				{
+					"name": "Immortal Fey",
+					"entries": [
+						"The nine-tails is immortal. They cannot be aged. They heal double the hit dice on a short rest and a long rest only takes 4 hours. Over multiple long rests scars will fade, evidence of old wounds disappear and they can even replace lost body parts."
+					]
+				},
+				{
+					"name": "Previous Life",
+					"entries": [
+						"The nine-tails spent over six hundred years perfecting their class abilities, they haven't forgotten anything. Create a level 18 class kitsune and add those actions, traits, skills and features to this NPC. If any stats are higher then above use those."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The nine-tails is an immortal, fey creature. They have advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "True Illusion",
+					"entries": [
+						"The Nine-Tails illusions are so potent they gain a physical and self sustaining form. Visual illusions cast through their Innate Spellcasting feature do not require the Nine-tails concentration. They can choose for the illusion to be immaterial or have physical substance. The True Illusion has one half the hit points, their to-hit is the Nine-tails spell attack and do one half the damage if applicable. Any spell or effect the illusion makes uses the foxfire cantrip."
+					]
+				},
+				{
+					"name": "Foxfire Savant",
+					"entries": [
+						"The foxfire a nine-tails can cast is legendary. Cast it as a 20th level sorcerer and double the range and flame volume of the cantrip. The Nine Tails can choose to cast it with either the Empowered or Quickened metamagic at will."
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"The nine-tails changes shape into a nine-tailed fey fox. The fox retains the fur and eye color of its true form. It has a choice of changing shape into smaller versions of this form. Its Str, Con, Dex, Hit Die, Hit Points and range changes accordingly. It's Int, Wis and Cha remains the same. Any equipment it is wearing or carrying is absorbed or borne by the new form (the nine-tails choice). If this form is at zero hit points they cannot use this ability. The nine-tails must complete a long rest to bring it back to full hit points in both forms."
+					]
+				},
+				{
+					"name": "Feral Eruption",
+					"entries": [
+						"If the nine-tails is brought to zero hit points and its fox form is above zero hit points the nine-tails will immediately change shape in an eruption of foxfire into its fox form. Each creature in a 30-foot radius sphere centered on the nine-tails must make a {@dc 26} Dexterity saving throw. The sphere spreads around corners. A creature takes {@damage 20d6} fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses",
+				"Magic Resistance"
+			],
+			"isNpc": true,
+			"fluff": {
+				"entries": [
+					"A nine tailed kitsune is extremely rare, powerful and considered a true immortal, fey creature. It is an extraodinary achievement for a kitsune to be powerful and old enough to gain a ninth tail. Doing so is a great honor to them and to their clan.",
+					"The kitsune is conscious when they gain their last tail. The foxfire and illusions created by this event cover a huge area, last a week and can even open temporary portals to the Feywilds. The celebrations of this event can last months. News of this momenteous occastion will usually spread to far reaching kitsune villages.",
+					"Once a kitsune becomes a nine-tails they rarely stay on the Material Plane for long. Most will retreat to the Feywilds to live a solitary life. The oldest nine-tails are on par with the Archfey. (Note: most kitsune warlock patrons are usually a blood relative.) Their ties to their clan usually recede after a few decades and they only honor ties to blood at this point, though there are exceptions (usually shrine maidens and Shinto priests).",
+					"They retain the ability to have a humanoid form but their true form is now of a huge, nine-tailed fey fox. Foxfire smolders off their feet and end of their tails at times. This can be used to stride through the air at tremendous speed. Their racial magic becomes semi-permanent true illusions and the power of their flame can rival that of the oldest dragons. Their truesight is absolute. They can detect, see through and dispel any illusion they come across."
+				]
+			},
+			"miscTags": [
+				"AOE"
+			],
+			"legendaryHeader": [
+				"The nine-tails can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The nine-tails regains spent legendary actions at the start of its turn."
+			],
+			"legendary": [
+				{
+					"name": "Innate Spellcasting",
+					"entries": [
+						"The nine-tails can cast their At Will spells with 1 action, their 5/day with 2 actions, or their 3/day with 3 actions."
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"The nine-tails uses its change shape ability."
+					]
+				}
+			]
+		}
+	]
+}
