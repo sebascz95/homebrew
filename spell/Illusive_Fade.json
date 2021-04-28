@@ -1,0 +1,203 @@
+{
+	"siteVersion": "1.127.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "FeyNine-Tails",
+				"abbreviation": "AWW",
+				"full": "Arashi Wild World",
+				"url": "",
+				"authors": [
+					"Arashi Keaton"
+				],
+				"convertedBy": [
+					"scz"
+				]
+			}
+		],
+		"dateAdded": 1619646830,
+		"dateLastModified": 1619646830
+	},
+	"spell": [
+		{
+			"name": "Illusive Fade",
+			"source": "FeyNine-Tails",
+			"level": 4,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "when you are about to get hit"
+				},
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Briefly surrounded by Foxfire embers you fade away in a waft of illusion. The Kitsune comes into being with invisibility anywhere in a 20 ft radius of the casting location to an unoccupied space that you can see."
+			],
+			"miscTags": [
+				"SGT",
+				"TP"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Land",
+							"source": "PHB",
+							"subSubclass": "Coast"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Ancients",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Vengeance",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Horizon Walker",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger (Revised)",
+							"source": "UATheRangerRevised"
+						},
+						"subclass": {
+							"name": "Horizon Walker",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Fey Wanderer (UA)",
+							"source": "UA2020SubclassesPt3"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger (Revised)",
+							"source": "UATheRangerRevised"
+						},
+						"subclass": {
+							"name": "Fey Wanderer (UA)",
+							"source": "UA2020SubclassesPt3"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Land",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Fey Wanderer",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger (Spell-less)",
+							"source": "UAModifyingClasses"
+						},
+						"subclass": {
+							"name": "Fey Wanderer",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger (Revised)",
+							"source": "UATheRangerRevised"
+						},
+						"subclass": {
+							"name": "Fey Wanderer",
+							"source": "TCE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Kitsune",
+					"source": "FeyNine-Tails",
+					"baseName": "Kitsune",
+					"baseSource": "FeyNine-Tails"
+				}
+			],
+			"fluff": {
+				"entries": [
+					"even if its a Kitsune spell, one of the foxes can teach it to any who can cast a 4th level spell"
+				]
+			}
+		}
+	]
+}
